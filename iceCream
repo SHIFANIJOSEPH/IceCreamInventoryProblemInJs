@@ -1,0 +1,29 @@
+let iceCream1={
+    flavor:'vannila',
+    price:30,
+    Quantity:20
+}
+let iceCream2={
+    flavor:'chocolate',
+    price:35,
+    Quantity:50
+}
+let iceCream3={
+    flavor:'strawberry',
+    price:25,
+    Quantity:40
+
+}
+
+let iceCream4={
+    flavor:'blackcurrent',
+    price:50,
+    Quantity:50
+}
+
+iceCream3.flavor='strawberrywithchocolate'
+console.log(iceCream3)
+let TotalValue=iceCream1.price*iceCream1.Quantity+iceCream2.price*iceCream2.Quantity+iceCream3.price*iceCream3.Quantity+iceCream4.price*iceCream4.Quantity
+console.log(TotalValue)
+
+
